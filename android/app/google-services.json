@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "557880682526",
+    "firebase_url": "https://matter-test-backend.firebaseio.com",
+    "project_id": "matter-test-backend",
+    "storage_bucket": "matter-test-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557880682526:android:8630953e08e6959ca5a60f",
+        "android_client_info": {
+          "package_name": "com.matterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557880682526-uq0bv1osfkl0fisvsc3o4qs5cse1fsru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnMeaGutKFtllG7F54JAnYSIJ-qA9QxbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557880682526-uq0bv1osfkl0fisvsc3o4qs5cse1fsru.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "557880682526-3aip5hkeci8g6ufbttmec2553kfi1cge.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.matter.dating"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557880682526:android:61820ec8ffc04966a5a60f",
+        "android_client_info": {
+          "package_name": "dating.matter.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557880682526-3rq4mdors2d09481tffoospkdvp3gb44.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dating.matter.test",
+            "certificate_hash": "65e6a877e2d991201b66823dd91650e9b90badcc"
+          }
+        },
+        {
+          "client_id": "557880682526-eg8cj18a63msghsg5664v1pu8gucunp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dating.matter.test",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "557880682526-uq0bv1osfkl0fisvsc3o4qs5cse1fsru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnMeaGutKFtllG7F54JAnYSIJ-qA9QxbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557880682526-uq0bv1osfkl0fisvsc3o4qs5cse1fsru.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "557880682526-3aip5hkeci8g6ufbttmec2553kfi1cge.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.matter.dating"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

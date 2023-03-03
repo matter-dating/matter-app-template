@@ -1,0 +1,65 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Push a new build to TestFlight"
+  lane :build do
+
+    ensure_git_branch(branch: ENV["BRANCH_NAME"])
+    # ensure_git_status_clean
+    get_certificates # invokes cert
+    get_provisioning_profile # invokes sigh
+    get_provisioning_profile( app_identifier: ENV["APP_IDENTIFIER"]+'.ImageNotification')
+    app_version = latest_testflight_build_number(
+      version:ENV["APP_VERSION"],
+      app_identifier:ENV["APP_IDENTIFIER"]
+    )
+
+    increment_build_number(
+      xcodeproj: "./ios/matterapp.xcodeproj",
+      build_number: app_version+1
+    )
+
+    identifier = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
+    update_app_identifier(
+      xcodeproj: "./ios/matterapp.xcodeproj",
+      plist_path: "matterapp/Info.plist",
+      app_identifier: identifier
+    )
+
+    update_info_plist(
+      xcodeproj: "./ios/matterapp.xcodeproj",
+      plist_path: "matterapp/Info.plist",
+      display_name: ENV["APP_NAME"]
+    )
+
+    scheme= "matterapp"
+    build_app(
+      export_xcargs: "-allowProvisioningUpdates",
+      workspace: "./ios/matterapp.xcworkspace",
+      scheme: scheme,
+    )
+
+    upload_to_testflight(
+      app_identifier: identifier,
+      skip_waiting_for_build_processing:true
+    )
+
+    clean_build_artifacts
+    notification(subtitle: "Finished Building", message: "App uploaded")
+end
+end

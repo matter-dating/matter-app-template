@@ -1,0 +1,177 @@
+{
+    "_comment": "src/localization/en/translation.json",
+    "General": {
+      "WelcomeTitle": "Welcome to",
+      "WelcomeSubTitle1": "Audio-first",
+      "WelcomeSubTitle2": "dating experience",
+      "WelcomebyClick1": "By clicking continue, you agree",
+      "WelcomebyClick2": "to our",
+      "WelcomebyClick3": "Terms & Conditions",
+      "WelcomeRegister": "Register",
+      "WelcomeLogin": "Login",
+
+      "PhoneTitle": "What’s your mobile number?",
+      "PhoneText1": "We will send a verification",
+      "PhoneText2": "code to this number. Message",
+      "PhoneText3": "and data rates may apply",
+      "PhoneLearn": "Learn about our",
+      "PhonePlaceholder": "Enter number",
+      "PhoneError1": "You must enter your phone number to proceed",
+      "PhoneError2": "Check your phone number",
+      "PhoneSuccess": "We sent you a code to",
+      "PhoneSuccess1": "Enter it in the field below",
+      "PhonePrivacy": "Privacy Policy",
+
+      "Continue": "Continue",
+      "Close": "Close",
+      "NotNow": "Not now",
+      "Agree": "I agree",
+      "Required": "required",
+      "Optional": "optional",
+      "Later": "Do it later",
+      "Cancel": "Cancel",
+      "Done": "Done",
+      "AddVoiceIntro": "Add Voice Intro",
+      "Start": "Start",
+
+      "VerifyPhone": "Verify your phone number",
+      "VerifyDigit": "Enter the 4-digit code sent",
+      "VerifyTo": "to",
+      "VerifyDidnt": "Didn’t get a code?",
+      "VerifyWrong": "Wrong Code",
+      "VerifyReEnter": "Re-enter your phone number again"
+    },
+    "Community" : {
+      "Title": "Welcome to our community",
+      "Text": "We are committed to creating a safe and",
+      "TextSub": "respectful environment for everyone",
+      "Follow": "Please follow these ground rules",
+      "Title1": "Be respectful",
+      "Text1": "Every member of the community will be respectful to each other and their privacy",
+      "Title2": "Be safe",
+      "Text2": "Be careful about sharing your personal information. See our",
+      "Tips": "safe dating tips",
+      "Title3": "Be yourself",
+      "Text3": "Your profile must reflect your true self. Assuming someone else’s identity will not be tolerated",
+      "Title4": "Your community",
+      "Text4": "Matter community depends on you. Report behaviors that violate our community rules",
+      "Full": "Here are our full",
+      "Rules": "Community Rules"
+    },
+    "CreateUser": {
+      "Title": "Profile setup",
+      "Text": "You can add more information to your profile and add your match preferences later",
+      "Name": "First name",
+      "Birthday": "Birthday",
+      "Gender": "Gender identity",
+      "Looking": "Looking for",
+      "Email": "Email",
+      "Job": "Job",
+      "Education": "Education",
+
+      "Error1": "This fields cannot be left blank",
+      "Error2": "Please enter your birthday",
+      "Error3": "You must be at least 18 years old",
+      "Error4": "Please enter your first name",
+      "Error5": "Please enter your gender identity",
+      "Error6": "Please enter your looking for",
+      "Error7": "Please enter your email",
+      "Error8": "Please check your email"
+    },
+    "Location": {
+      "Title": "We need your location to",
+      "Find": "Find you relevant matches",
+      "Share": "We will never share your exact location. Only your current city will be shown on your profile.",
+      "Learn": "Learn more",
+      "ModalLearn": "Learn more about our Privacy Policy"      
+    },
+    "Notification": {
+      "Title": "Please turn on notification",
+      "Text1": "Don’t miss a message",
+      "Text2": "from your match",
+      "Text3": "We’ll not annoy you. It’s a promise!"
+    },
+    "Photo": {
+      "Title": "Upload your photos",
+      "MainPhoto": "Main photo",
+      "Main": "Main photo should clearly show",
+      "Face": "your face",
+      "See": "See photo suggestions",
+      "Please": "Please only upload your own photos. A violation could lead to account suspension. This way we protect our community from catfishing and scams."
+    },
+    "SuggestionModal": {
+      "Title": "Photo tips",
+      "Mix": "Mix it up!",
+      "MixText": "Different poses and settings help keep your profile exciting",
+      "Full": "Full body",
+      "Close": "Close shot",
+      "Candid": "Candid",
+      "Hide": "Don’t hide!",
+      "HideText": "Remove the shades and filters so we can see the real you",
+      "Looking": "Looking away",
+      "Frame": "Not in frame",
+      "Hiding": "Hiding face",
+      "Star": "You’re the star!",
+      "StarText": "Keep the group photos to a minimum",
+      "Show": "Show off your hobbies!",
+      "ShowText": "Pictures of you doing what you love go a long way"
+    },
+    "PhotoVerify": {
+      "Title": "Verify your photo",
+      "Text1": "Verified people get more matches.",
+      "Text2": "Trust us on this one!",
+      "Text3": "Take a selfie with a",
+      "Text4": "peace sign",
+      "Text5": "Clearly show your",
+      "Text6": "face",
+      "Text7": "No group photo",
+      "Take": "Take a photo",
+      "ReTake": "Re-take photo",
+      "Submit": "Submit photo",
+      "Looks": "Looks like your photo doesn’t",
+      "Looks1": "match the requirements…",
+      "Great": "Great!",
+      "Great1": "We’ll let you know when your photo is verified",
+      "Requirements": "Requirements"
+    },
+    "IntroAudio": {
+      "Title": "Voice Intro",
+      "Text1": "Everyone is unique. Express your",
+      "Text2": "authentic self in your own voice",
+      "Swipe": "Swipe for more",
+      "Tip": "Here is a tip:",
+      "Tip1": "Nervous about what to say or how your voice sound? Everyone does, so relax",
+      "Tip2": "We have prompts and examples to help you create your Voice Intro",
+      "Tip3": "Avoid making it too short. Use the time, make it count",
+      "Tip4": "Remember, if you don’t add your Voice Intro, you will not be visible to others"
+    },
+    "AddVoice": {
+      "Title": "Add your Voice Intro",
+      "Text1": "Psss! You can use the prompts",
+      "Text2": "and listen to examples",
+      "Click": "Click to record",
+      "Please": "Please make sure it’s at least",
+      "Seconds": "5 seconds"
+    },
+    "Intro": {
+      "Prompt": "Prompt:",
+      "Example": "Example:",
+      "Browse": "Browse all prompts"
+    },
+    "PreviewIntro" : {
+      "Title": "Congratulations!",
+      "Text": "You recorded your first Voice Intro",
+      "Your": "Your voice Intro:",
+      "ReRecord": "Re-record my voice intro",
+      "Save": "Save & continue",
+      "Review1": "We are reviewing your Voice Intro",
+      "Review2": "We’ll let you know when it’s done"
+    },
+    "BrowsePrompt" : {
+      "Title": "Browse prompts"
+    },
+    "BoardEnd" : {
+      "Title": "Your profile is set!",
+      "Text": "Let’s go over how to get the best experience on Matter"
+    }
+}
